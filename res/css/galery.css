@@ -1,0 +1,22 @@
+:root{
+    --h1-font:Oswald;
+    --bg-font:Arial;
+    --a-hover:green;
+    --img-hover:chocolate;
+    --i-hover:red;
+}
+h1{
+    font-family: var(--h1-font);
+}
+body{
+    font-family: var(--bg-font);
+}
+a:hover{
+    color: var(--i-hover);
+}
+img:hover{
+    background-color: var(--img-hover);
+}
+.red:hover{
+    color: var(--i-hover);
+}
